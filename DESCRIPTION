@@ -14,3 +14,5 @@ Imports:
 Suggests: 
     future,
     mirai
+URL: https://github.com/eliocamp/dtparallel
+BugReports: https://github.com/eliocamp/dtparallel/issues
