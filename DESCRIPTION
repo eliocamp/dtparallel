@@ -1,0 +1,16 @@
+Package: dtparallel
+Title: Runs data.table expressions in parallel
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: A very simple package to add syntactic sugar to parallel execution using data.table.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports: 
+    data.table,
+    rlang
+Suggests: 
+    future,
+    mirai
