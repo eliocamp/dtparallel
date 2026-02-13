@@ -62,8 +62,7 @@ collect_par.tasks_future <- function(x) {
 
 #' @export
 collect_par.tasks_mirai <- function(x) {
-  x[.progress]
-  # unlist(mirai::collect_mirai(x, options = ".progress"))
+  unlist(mirai::collect_mirai(x, options = ".progress"))
 }
 
 #' @export
