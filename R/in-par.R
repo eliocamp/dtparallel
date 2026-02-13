@@ -62,7 +62,7 @@ collect_par.tasks_future <- function(x) {
 
 #' @export
 collect_par.tasks_mirai <- function(x) {
-  mirai::collect_mirai(x)
+  unlist(mirai::collect_mirai(x))
 }
 
 #' @export
