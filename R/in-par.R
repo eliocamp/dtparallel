@@ -67,7 +67,7 @@ collect_par.tasks_mirai <- function(x) {
 
 #' @export
 collect_par.data.table <- function(x) {
-  data[, names(.SD) := lapply(.SD, collect_par)][]
+  x[, names(.SD) := lapply(.SD, collect_par)][]
 }
 
 .datatable.aware = TRUE
